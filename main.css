@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #144366;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+header li a {
+    color: #f5f6fa;
+    background-color:#2986cc;
+    padding: 15px;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #f5f6fa;
+    text-decoration: underline;
+    background-color: #7eb6e0;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.articles article a {
+    background-color: #94c2e5;
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 16px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+section h2 {
+    font-size: 34px;
+}
+
+#esportes {
+    background-color: rgba(60, 179, 113, 0.4);
+}
+
+#esportes a:hover {
+    background-color: rgba(24, 243, 122, 0.795);
+
+}
+
+#economia {
+    background-color: rgba(255, 255, 88, 0.6);
+}
+
+#economia a:hover {
+    background-color: rgba(138, 138, 22, 0.795);
+}
+
+
+#jogos {
+    background-color: rgba(255, 59, 61, 0.8);
+}
+
+#jogos a:hover {
+    background-color: rgba(243, 22, 25, 0.795);
+}
+
+#seguranca {
+    background-color: rgba(84, 63, 218, 0.589);
+}
+
+#seguranca a:hover {
+    background-color: rgba(84, 63, 218, 0.795);
+}
