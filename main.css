@@ -1,126 +1,149 @@
-
+/*Resetando CSS*/
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body > header {
-    background-color: #144366;
+header,
+section h2,
+section h3,
+form button{
+        font-family: "Bungee", sans-serif;
+        font-weight: normal;
+}
+
+body, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header {
     padding: 16px 0;
-    color: #f5f6fa;
+    background-color: #182C61;
+    color: #ecf0f1
 }
 
-header .container {
+header h1,
+section h2,
+section h3 {
+    font-weight: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header li {
+.lista-imagens img{
+    height: 24px;
+}
+
+.lista-imagens li{
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;    
+    margin-right: 8px;
 }
 
-header li a {
-    color: #f5f6fa;
-    background-color:#2986cc;
-    padding: 15px;
-    text-decoration: none;
-}
-
-header li a:hover {
-    color: #f5f6fa;
-    text-decoration: underline;
-    background-color: #7eb6e0;
-}
-
-.container {
-    width: 1366px;
-    margin: 0 auto 0 auto;
-}
-
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.articles img {
-    height: 180px;
-}
-
-.articles article {
-    width: 30%;
-}
-
-.articles article h3 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-}
-
-.articles article a {
-    background-color: #94c2e5;
-    color: black;
-    padding: 8px;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-
-.articles article a:hover{
-    text-decoration: underline;
-}
-
-.articles article p {
-    font-family: Arial, Helvetica, sans-serif;
+section .container{
+    align-items: flex-start;
 }
 
 section {
-    padding: 16px;
+    padding: 24px 0;
 }
 
-section h2,
-.articles article {
+section h2{
+    margin-bottom: 16px;
+    color: #182C61;
+}
+
+section{
+    color: #182C61;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.imagem-faxada{
+    margin-right: 32px;
+}
+
+.social-imagens img{
+    height: 24px;
+}
+
+.social-imagens li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-imagens li a{
+    text-decoration: none;
+}
+
+#contato .container{
+    display: block;
+}
+
+.contato-form{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3{
     margin-bottom: 16px;
 }
 
-section h2 {
-    font-size: 34px;
+form button{
+    background-color: #182C61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-#esportes {
-    background-color: rgba(60, 179, 113, 0.4);
+form button:hover{
+    background-color:#4a6cc9;
 }
 
-#esportes a:hover {
-    background-color: rgba(24, 243, 122, 0.795);
-
+input:focus, textarea:focus{
+    outline-color: #182C61;
 }
 
-#economia {
-    background-color: rgba(255, 255, 88, 0.6);
-}
-
-#economia a:hover {
-    background-color: rgba(138, 138, 22, 0.795);
-}
-
-
-#jogos {
-    background-color: rgba(255, 59, 61, 0.8);
-}
-
-#jogos a:hover {
-    background-color: rgba(243, 22, 25, 0.795);
-}
-
-#seguranca {
-    background-color: rgba(84, 63, 218, 0.589);
-}
-
-#seguranca a:hover {
-    background-color: rgba(84, 63, 218, 0.795);
+footer {
+    background-color: #182C61;
+    color: #ecf0f1;
+    padding: 16px 0;
 }
