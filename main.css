@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #000080;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid #0000CD;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form{
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button{
+    padding: 8px;    
+}
+
+button{
+    margin-left: 12px;
+    border: none;
+    background-color: rgb(98, 174, 241);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+#btn-cancelar{
+    background-color: rgb(241, 131, 131);
+}
+
+#btn-cancelar:hover{
+    background-color: rgb(240, 96, 96);
+}
+
+button:hover{
+    background-color: rgb(159, 202, 240);
+}
+
+h2, 
+ul{
+    text-align: center;    
+}
+
+h2{
+    padding-top: 18px;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
+
+.tarefa-completa {
+    text-decoration: line-through;    
+    color: #16c41c;
+    font-size: 16px;
+}
