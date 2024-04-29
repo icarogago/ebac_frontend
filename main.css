@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #48129e;
+    padding-top: 16px;
+    color: #fff;
+    display: block;    
+}
+
+header > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+
+form{
+    max-width: 360px;   
+}
+
+.form-campo{
+    margin-bottom: 16px;
+}
+
+.form-campo input{
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding-top: 8px;
+    font-family: "Open Sans", sans-serif;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color:#48129e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    font-family: "Open Sans", sans-serif;
+}
+
+button:hover{
+    background-color: #751fff;
+}
