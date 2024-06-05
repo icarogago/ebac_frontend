@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+form button{
+    padding-top: 10px;
+}
+
+
+.container {
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(122, 208, 230, 0.568);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
