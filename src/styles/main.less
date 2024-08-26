@@ -1,16 +1,19 @@
-@import "reset.less";
 @import "mapa.less";
+@import "variaveis.less";
 
-@breakpointMobile:~"(max-width: 767px)";
-@breakpointTablet: ~"(min-width: 768px) and (max-width: 1023px)";
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
 
 body {
     background-color: #colors[corPrimaria];
 }
 
 li {
-    list-style: none;
+    list-style: @limpar;
 }
 
 .container {
@@ -23,8 +26,7 @@ li {
 
         .products {
             display: block;
-        }
-    
+        }    
         .products-item  {
             margin-bottom: 32px;
         }
@@ -35,6 +37,10 @@ li {
 
         .container {
             max-width: 80%;
+        }
+        .products {
+            grid-template-columns: repeat(2, 48.5%);
+            column-gap: 3%;
         }   
         
     }
@@ -55,13 +61,15 @@ header {
 
 .menu {
     display: flex;
+
     li{
     font-weight: bold;
     margin-left: 24px;
     }
+
     a{
     color: #colors[corText];
-    text-decoration: none;
+    text-decoration: @limpar;
     }
 }
 
@@ -83,6 +91,7 @@ section {
 }
 
 .product-button {
+
     display: block;
     background-color: #colors[corButton];
     color: #colors[corText];
@@ -90,7 +99,8 @@ section {
     padding: 8px 0;
     border-radius: 8px;
     margin-top: 8px;
-    text-decoration: none;
+    text-decoration: @limpar;
+
     &:hover{
         background-color: #colors[corButtonHover];
     }
