@@ -1,0 +1,62 @@
+@fontePrimaria: Roboto, san-serif;
+@fonteTitulo:Roboto,cursive;
+@corTexto:#000;
+@corBg:#f5cd79;
+@corBt:#786fa6;
+@corBtTexto:#fff;
+
+body{
+    background-color: @corBg;
+    font-family: @fontePrimaria;
+    color: @corTexto;
+}
+
+h1{
+    font-family: @fonteTitulo;
+    font-size: 3em;
+}
+
+main{
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+button{
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 16px;
+    border-radius: 10px;
+    background-color: @corBt;
+    color: @corBtTexto;
+    font-family: @fontePrimaria;
+}
+
+input{
+    display: block;
+    margin: 16px auto 0;
+    font-size: 2em;
+    max-width: 120px;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    border-bottom: 6px solid #fff;
+}
+
+.resultado{
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted #000000;
+    display: none;
+
+    span{
+        font-weight: bold;
+        font-size: 3em;
+        display: block;
+    }
+}
