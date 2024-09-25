@@ -9,6 +9,6 @@ document.addEventListener('DOMContentLoaded',function(){
         
         document.getElementById('resultado-valor').innerText = numeroAleatorio
     
-    document.querySelector('.resultado').style.display = block
+    document.querySelector('.resultado').style.display = "block"
 })
 })
