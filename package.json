@@ -1,0 +1,12 @@
+{
+  "name": "testes-agenda-contatos",
+  "version": "1.0.0",
+  "description": "Testes automatizados para a aplicação de Agenda de Contatos",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+} 
