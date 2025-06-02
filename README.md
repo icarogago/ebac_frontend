@@ -31,7 +31,6 @@ npm run cypress:run
 
 - `cypress/e2e/contatos.cy.js`: Contém os testes para as funcionalidades de inclusão, alteração e remoção de contatos
 - `cypress.config.js`: Configurações do Cypress
-- `documentacao/step-by-step.md`: Documentação detalhada do projeto
 
 ## Funcionalidades Testadas
 
